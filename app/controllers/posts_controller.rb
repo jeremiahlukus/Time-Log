@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-
+before_action :set_post, only: [:show]
   def index
   
   end
@@ -18,7 +18,6 @@ class PostsController < ApplicationController
     end
   end
   def show
-    @post = Post.find(params[:id])
   end
 
   private
@@ -27,5 +26,7 @@ class PostsController < ApplicationController
     params.require(:post).permit(:date, :rationale)
   end
 
-
+  def set_post
+     @post = Post.find(params[:id])
+  end
 end
