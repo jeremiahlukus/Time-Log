@@ -30,3 +30,9 @@
 - dotevn
 - rspec   <--
 - capybara
+
+
+
+
+## Recactor TODOs:
+- refactor user association integration test in post_spec
