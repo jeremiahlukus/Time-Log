@@ -4,9 +4,9 @@
 
 ### Models
 
-- post:date :rationale
-- user devise
-- admin  STI ^
+- post:date :rationale 
+- user devise   <--
+- admin  STI ^  <--
 
 
 
@@ -23,10 +23,10 @@
 
 
 ### Gems to use
-- devise
+- devise  <--
 - administrate 
 - bootstrap
 - twillio 
 - dotevn
-- rspec
+- rspec   <--
 - capybara
