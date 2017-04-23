@@ -4,9 +4,9 @@
 
 ### Models
 
-- post:date :rationale 
-- user devise   <--
-- admin  STI ^  <--
+- X post:date :rationale 
+- X user devise   <--
+- X admin  STI ^  <--
 
 
 
