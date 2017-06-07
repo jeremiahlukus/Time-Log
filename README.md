@@ -17,6 +17,7 @@
 - admin dashboard -> administrate 
 - email summary to admins for approval
 - need documentation for no overtime 
+- block non-admin and guest users
 
 ### UI: 
 - X bootstrap -> formatting
