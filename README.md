@@ -19,9 +19,9 @@
 - need documentation for no overtime 
 
 ### UI: 
-- bootstrap
-
-
+- X bootstrap -> formatting
+- X update forms
+- icons (font awesome)
 ### Gems to use
 - devise  <--
 - administrate 
