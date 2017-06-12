@@ -13,6 +13,11 @@
 ### Features 
 
 - approval workflow
+* status to post
+* status needs to be required
+* status needs default val
+* implement approval stages
+* locking 
 - send sms -> link_to log time
 - admin dashboard -> administrate 
 - email summary to admins for approval
