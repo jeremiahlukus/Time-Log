@@ -1,4 +1,6 @@
 # Time Log App
+[![Build Status](https://travis-ci.org/jeremiahlukus/Time-Log.png)](https://travis-ci.org/jeremiahlukus/Time-Log)
+
 
 ## Purpose: Document whether or not employees worked overtime or not
 
