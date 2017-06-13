@@ -1,11 +1,13 @@
 language: ruby
 rvm:
- - 2.2.2
+ - 1.29.1
  - jruby
  - rbx-2
 before_install:
   - gem update --system
   - gem --version
+before_script:
+  - RAILS_ENV=test bundle exec rake db:create
 script:
   - bin/rake db:migrate RAILS_ENV=test
   - bin/rake

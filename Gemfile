@@ -30,6 +30,7 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
+  gem 'rake'
 end
 
 group :development do
@@ -41,9 +42,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :test do
-  gem 'rake'
-end
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
