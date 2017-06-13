@@ -18,6 +18,7 @@
 * status needs default val
 * implement approval stages
 * locking 
+
 - send sms -> link_to log time
 - admin dashboard -> administrate 
 - email summary to admins for approval
@@ -41,7 +42,4 @@
 
 
 ## Recactor TODOs:
-- refactor user association integration test in post_spec
 - Refactor posts/_forms for admin user with status 
-- Fix post_spec.rb:82 to use factories 
-- Fix post_spec.rb:53 to have correct user reference and not require update
