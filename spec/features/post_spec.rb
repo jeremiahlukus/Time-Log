@@ -89,6 +89,10 @@ describe 'navigate' do
       expect(page).to have_content("Edited content")
     end
 
+    it 'cannot be edited by a non authorized user' do
+
+    end
+
     end
   end
 
