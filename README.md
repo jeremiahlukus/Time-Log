@@ -1,5 +1,4 @@
-# Time Log App
-[![Build Status](https://travis-ci.org/jeremiahlukus/Time-Log.svg?branch=master)](https://travis-ci.org/jeremiahlukus/Time-Log)
+# Time Log App [![Build Status](https://travis-ci.org/jeremiahlukus/Time-Log.svg?branch=master)](https://travis-ci.org/jeremiahlukus/Time-Log)
 
 ## Purpose: Document whether or not employees worked overtime or not
 
@@ -43,3 +42,5 @@
 
 ## Recactor TODOs:
 - refactor user association integration test in post_spec
+- Refactor posts/_forms for admin user with status 
+- Fix post_spec.rb:82 to use factories 
