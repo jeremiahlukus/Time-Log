@@ -31,7 +31,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'rake'
-  gem 'pg', '~> 0.18'
 end
 
 group :development do
