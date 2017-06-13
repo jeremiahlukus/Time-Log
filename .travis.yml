@@ -1,6 +1,6 @@
 language: ruby
 rvm:
- - 1.29.1
+ - 2.2.2 
  - jruby
  - rbx-2
 before_install:
