@@ -1,5 +1,8 @@
 # Time Log App [![Build Status](https://travis-ci.org/jeremiahlukus/Time-Log.svg?branch=master)](https://travis-ci.org/jeremiahlukus/Time-Log)
 
+### https://travis-ci.org/jeremiahlukus/Time-Log/builds
+### https://time-log-overtime.herokuapp.com/
+
 ## Purpose: Document whether or not employees worked overtime or not
 
 ### Models
