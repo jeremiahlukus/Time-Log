@@ -1,11 +1,18 @@
 language: ruby
 rvm:
- - 2.2.2 
+- 2.2.2
 before_install:
-  - gem update --system
-  - gem --version
+- gem update --system
+- gem --version
 before_script:
-  - RAILS_ENV=test bundle exec rake db:create
+- RAILS_ENV=test bundle exec rake db:create
 script:
-  - bin/rake db:migrate RAILS_ENV=test
-  - bin/rake
+- bin/rake db:migrate RAILS_ENV=test
+- bin/rake
+deploy:
+  provider: heroku
+  api_key:
+    secure: Q9pGRRxGok9EyvIdo3ziE93Hw0ohcpFhJKWA2Duo63vhBRXCH4k1wlBQaYRiH80CLJfrh3Ty+4pfIOP0E4hPvkxPIG+fNHsNIB2kpm24NYAVvhRzRSRrDq1iJ5x4JF32rk/eVlweEoqJK7Zo11d79Y7ovFdN3I63A/bjJ7INtzJMcmFmmPBiHk/rqjvn/xkkuiS9+XeSny7kOxgvzRbv0+NXucMrxFn6q1h6DgaCafrx20qQjhxJdwfZxi2QMk3VFIk9a//4x3ZPn6WXgySJN7oFMLZHmRZ9Rr6xI+QmS9U3Rn6pnNmn3l3NQeJGW2uZnOfME9Y8Q88Fwz0vk/eocLQVdG3R9tYQd2Q1KP4GcXGZzaD5wmRhnYtDPmagPdbWVkfHyiv4CQx/EIbnEx1vekcNbpeuybwOFNztZbIPQEk+7O0ecxPH4glMkln8LjzQDh8snPiJri6fKxzaeUMQ2XtZMk5qbWMutwSz4P4orQxXAuciAL9QqU7iVgs4CdlFg+qxQiahH2QshPUMYj51lrR71FcjHt5uXQC3A0+R8ovdHNxp4mefdhmPZZm08ATDQSLY8SksMZzuhD9k321v1KFBLUBTgJJpCNdsjnNtcAjzsg1WYDtcTMj7HW8di0L1TBGVd04g3SOYXlGJ79OerJxf2pCKqBPW6WByV4HFNRU=
+  app: time-log-overtime
+  on:
+    repo: jeremiahlukus/Time-Log
