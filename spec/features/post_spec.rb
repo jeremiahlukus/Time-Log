@@ -33,8 +33,17 @@ describe 'navigate' do
 
     it 'has a scope so that only post creators can see their posts' do
 
-      other_user = User.create(first_name: 'Non', last_name: 'Authorized', email: 'nonauth@test.com', password: 'asdfasdf', password_confirmation: 'asdfasdf')
-      post_from_other_user = Post.create(date: Date.today, rationale: "Should not be seen", user_id: other_user.id, overtime_request: 3.5 ) 
+      other_user = User.create(first_name: 'Non',
+                               last_name: 'Authorized', 
+                               email: 'nonauth@test.com', 
+                               password: 'asdfasdf', 
+                               password_confirmation: 'asdfasdf',
+                               phone: '5555555555')
+
+      post_from_other_user = Post.create(date: Date.today, 
+                                         rationale: "Should not be seen", 
+                                         user_id: other_user.id, 
+                                         overtime_request: 3.5 ) 
 
       visit posts_path
       expect(page).to_not have_content(/Should not be seen/)
@@ -58,7 +67,10 @@ describe 'navigate' do
       delete_user = FactoryGirl.create(:user)
       login_as(delete_user, :scope => :user)
 
-      post_to_delete = Post.create(date: Date.today, rationale: "asdf", user_id: delete_user.id, overtime_request: 3.5)
+      post_to_delete = Post.create(date: Date.today, 
+                                   rationale: "asdf", 
+                                   user_id: delete_user.id, 
+                                   overtime_request: 3.5)
 
       visit posts_path
 
