@@ -34,20 +34,20 @@
 - X icons (font awesome)
 
 ### Gems to use
-- devise  <--
-- administrate 
-- bootstrap
-- twillio 
-- dotevn
-- rspec   <--
-- capybara
+- X devise  <--
+- X administrate 
+- X bootstrap
+- X twillio 
+- X dotevn
+- X rspec   <--
+- X capybara
 
 
 ## TODO
-- Integrate validation for phone in User: 
-* No spaces or dashes
-* 10 chars
-* all chars number
+- X Integrate validation for phone in User: 
+* X No spaces or dashes
+* X 10 chars
+* X all chars number
 
 ## Recactor TODOs:
 - X Refactor posts/_forms for admin user with status 
