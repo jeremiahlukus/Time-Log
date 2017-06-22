@@ -43,7 +43,11 @@
 - capybara
 
 
-
+## TODO
+- Integrate validation for phone in User: 
+* No spaces or dashes
+* 10 chars
+* all chars number
 
 ## Recactor TODOs:
 - X Refactor posts/_forms for admin user with status 
