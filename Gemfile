@@ -22,7 +22,7 @@ gem "administrate"
 gem 'bourbon'
 gem "pundit"
 gem 'twilio-ruby', '~> 5.0.0.rc21'
-
+gem 'dotenv-rails', :groups => [:development, :test]
 
 gem 'rails_12factor', group: :production
 
