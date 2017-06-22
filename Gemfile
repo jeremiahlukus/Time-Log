@@ -21,6 +21,9 @@ gem 'gritter'
 gem "administrate"
 gem 'bourbon'
 gem "pundit"
+gem 'twilio-ruby', '~> 5.0.0.rc21'
+
+
 gem 'rails_12factor', group: :production
 
 group :development, :test do

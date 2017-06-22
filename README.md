@@ -10,7 +10,7 @@
 - X post:date :rationale 
 - X user devise   <--
 - X admin  STI ^  <--
-
+- AuditLog
 
 
 ### Features 
@@ -31,7 +31,8 @@
 ### UI: 
 - X bootstrap -> formatting
 - X update forms
-- icons (font awesome)
+- X icons (font awesome)
+
 ### Gems to use
 - devise  <--
 - administrate 
@@ -45,4 +46,4 @@
 
 
 ## Recactor TODOs:
-- Refactor posts/_forms for admin user with status 
+- X Refactor posts/_forms for admin user with status 
