@@ -10,7 +10,15 @@
 - X post:date :rationale 
 - X user devise   <--
 - X admin  STI ^  <--
-- AuditLog
+- AuditLog - keep track of if a employee had overtime or not
+* Dependencies: 
+- User
+
+* Attrs:
+- Status:integer (emun) -> pending (created), complete
+- start_date:date -> default previous Monday
+- date_verified -> default nil 
+rails g resource AuditLog user:references status:integer start_date:date end_date:date
 
 
 ### Features 
@@ -22,7 +30,7 @@
 * implement approval stages
 * locking 
 
-- send sms -> link_to log time
+- send sms -> link_to log time -> integrate with heroku scheduler
 - admin dashboard -> administrate 
 - email summary to admins for approval
 - need documentation for no overtime 
