@@ -12,6 +12,8 @@
       <%= link_to "Time Entires", posts_path %>
     </li>
 
+    <%= render 'shared/audit_log_tab' if policy(AuditLog).index? %>
+
     <li class="<%= active?(new_post_path) %>">
       <%= link_to "Add new entry", new_post_path, id: 'new_post_from_nav' %>
     </li>
