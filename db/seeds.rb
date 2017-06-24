@@ -15,7 +15,7 @@
                   phone: "9123246830")
 
 100.times do |post| 
-  Post.create!(date: Date.today, rationale: "#{post} rationale contect", user_id: @user.id, overtime_request: 2.5)
+  Post.create!(date: Date.today, rationale: "#{post} Bacon ipsum dolor amet pork chop sausage flank, tenderloin venison biltong frankfurter shoulder pig. Bacon chuck alcatra, sirloin pastrami pork belly flank. Burgdoggen swine capicola beef, jowl strip steak jerky ribeye drumstick chicken. Burgdoggen ribeye t-bone shankle spare ribs rump pig shank meatball salami pork chop swine porchetta prosciutto beef ribs. Jerky landjaeger alcatra drumstick, shankle bacon meatloaf turkey pastrami turducken salami pork chop tail chuck.", user_id: @user.id, overtime_request: 2.5)
 end
 puts "100 posts have have been created"
 
