@@ -23,7 +23,7 @@ gem 'bourbon'
 gem "pundit"
 gem 'twilio-ruby', '~> 5.0.0.rc21'
 gem 'kaminari'
-
+gem 'rails_12factor'
 
 
 gem 'dotenv-rails', :groups => [:development, :test]
